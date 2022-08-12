@@ -25,9 +25,9 @@ This package was hosted with [caddy-php](https://github.com/Hope-IT-Works/caddy-
 
 [^replace-notice]: items in this list could be replaced, however, doing so may result in unknown issues
 
-| Name | Description | Tested version |
-|------|-------------|----------------|
-| [Caddy](https://github.com/caddyserver/caddy) | Fast, multi-platform web server with automatic HTTPS | 2.5.2 |
-| [Composer](https://github.com/composer/composer) | dependency management system for PHP projects | *irrelevant* |
-| [MariaDB](https://github.com/MariaDB/server) | open source relational database management system server | 10.8.3 |
-| [PHP](https://github.com/php/php-src) | scripting language interpreter suited for web developement | 8.1.9 |
+| Name | Description | Tested version | Default Port |
+|------|-------------|----------------|--------------|
+| [Caddy](https://github.com/caddyserver/caddy) | Fast, multi-platform web server with automatic HTTPS | 2.5.2 | 443 ([HTTPS](https://caddyserver.com/docs/quick-starts/https)) |
+| [Composer](https://github.com/composer/composer) | dependency management system for PHP projects | *irrelevant* | / |
+| [MariaDB](https://github.com/MariaDB/server) | open source relational database management system server | 10.8.3 | 3306 ([SQL](https://mariadb.com/kb/en/connecting-to-mariadb/)) |
+| [PHP](https://github.com/php/php-src) | scripting language interpreter suited for web developement | 8.1.9 | 9000 ([FastCGI](https://www.php.net/manual/en/install.fpm.php)) |
