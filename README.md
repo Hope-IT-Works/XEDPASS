@@ -13,6 +13,12 @@
 
 XEDPASS is a selfhosted authorization kit for web developement projects. You want to create a web project with account functionality? Maybe this kit is for you!
 
+## Status
+
+![status](https://img.shields.io/badge/status-not%20ready-red)
+
+XEDPASS is currently in developement state, there is no release available *(yet)*.
+
 ## About hosting
 
 This package was hosted with [caddy-php](https://github.com/Hope-IT-Works/caddy-php)[^caddy-php-description] during development.
@@ -31,3 +37,18 @@ This package was hosted with [caddy-php](https://github.com/Hope-IT-Works/caddy-
 | [Composer](https://github.com/composer/composer) | dependency management system for PHP projects | *irrelevant* | / |
 | [MariaDB](https://github.com/MariaDB/server) | open source relational database management system server | 10.8.3 | 3306 ([SQL](https://mariadb.com/kb/en/connecting-to-mariadb/)) |
 | [PHP](https://github.com/php/php-src) | scripting language interpreter suited for web developement | 8.1.9 | 9000 ([FastCGI](https://www.php.net/manual/en/install.fpm.php)) |
+| [winsw/winsw](https://github.com/winsw/winsw) | windows service wrapper | 2.11.0 | / |
+
+### Source[^source-replace]
+
+[^source-replace]: items in this list may not be replaced, as they are partially hard coded into this kit
+
+| Name | Description | Tested version |
+|------|-------------|----------------|
+| [twbs/bootstrap](https://github.com/twbs/bootstrap) | HTML, CSS and JavaScript front-end framework | 5.2.0 |
+| [delight-im/PHP-Auth](https://github.com/delight-im/PHP-Auth) | authorization framework for PHP | 8.3.0 |
+| [guzzle/guzzle](https://github.com/guzzle/guzzle) | extensible PHP HTTP client | 7.4.5 |
+| [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) | email sending library for PHP | 6.6.3 |
+| [ActiveCampaign/postmark-templates](https://github.com/ActiveCampaign/postmark-templates) | transactional email templates | *irrelevant* |
+| [mevdschee/php-crud-api](https://github.com/mevdschee/php-crud-api) | single-file PHP REST-API for databases | 2.14.8 |
+| [vrana/adminer](https://github.com/vrana/adminer) | database management system GUI | 4.8.1 |
