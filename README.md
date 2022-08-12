@@ -45,6 +45,7 @@ This package was hosted with [caddy-php](https://github.com/Hope-IT-Works/caddy-
 
 | Name | Description | Tested version |
 |------|-------------|----------------|
+| [animate-css/animate.css](https://github.com/animate-css/animate.css) | cross-browser CSS library for animations | 4.1.1 |
 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | HTML, CSS and JavaScript front-end framework | 5.2.0 |
 | [delight-im/PHP-Auth](https://github.com/delight-im/PHP-Auth) | authorization framework for PHP | 8.3.0 |
 | [guzzle/guzzle](https://github.com/guzzle/guzzle) | extensible PHP HTTP client | 7.4.5 |
