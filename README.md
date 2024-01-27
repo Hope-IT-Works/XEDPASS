@@ -21,9 +21,9 @@ XEDPASS is currently in developement state, there is no release available *(yet)
 
 ## About hosting
 
-This package was hosted with [caddy-php](https://github.com/Hope-IT-Works/caddy-php)[^caddy-php-description] during development.
+This package was hosted with [WCMP](https://github.com/Hope-IT-Works/WCMP)[^wcmp-description] during development.
 
-[^caddy-php-description]: caddy-php is a tool for setting up a Caddy server with PHP and MariaDB support
+[^wcmp-description]: WCMP is a tool for setting up a Caddy server with PHP and MariaDB support
 
 ## Dependencies
 
@@ -33,11 +33,11 @@ This package was hosted with [caddy-php](https://github.com/Hope-IT-Works/caddy-
 
 | Name | Description | Tested version | Default Port |
 |------|-------------|----------------|--------------|
-| [Caddy](https://github.com/caddyserver/caddy) | Fast, multi-platform web server with automatic HTTPS | 2.5.2 | 443 ([HTTPS](https://caddyserver.com/docs/quick-starts/https)) |
+| [Caddy](https://github.com/caddyserver/caddy) | Fast, multi-platform web server with automatic HTTPS | *irrelevant* | 443 ([HTTPS](https://caddyserver.com/docs/quick-starts/https)) |
 | [Composer](https://github.com/composer/composer) | dependency management system for PHP projects | *irrelevant* | / |
-| [MariaDB](https://github.com/MariaDB/server) | open source relational database management system server | 10.8.3 | 3306 ([SQL](https://mariadb.com/kb/en/connecting-to-mariadb/)) |
-| [PHP](https://github.com/php/php-src) | scripting language interpreter suited for web developement | 8.1.9 | 9000 ([FastCGI](https://www.php.net/manual/en/install.fpm.php)) |
-| [winsw/winsw](https://github.com/winsw/winsw) | windows service wrapper | 2.11.0 | / |
+| [MariaDB](https://github.com/MariaDB/server) | open source relational database management system server | >=10 | 3306 ([SQL](https://mariadb.com/kb/en/connecting-to-mariadb/)) |
+| [PHP](https://github.com/php/php-src) | scripting language interpreter suited for web developement | >=8 | 9000 ([FastCGI](https://www.php.net/manual/en/install.fpm.php)) |
+| [winsw/winsw](https://github.com/winsw/winsw) | windows service wrapper | >=2 | / |
 
 ### Source[^source-replace]
 
